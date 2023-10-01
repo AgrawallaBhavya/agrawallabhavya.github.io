@@ -130,6 +130,45 @@
           </p>
         </td>
       </tr>
+      <tr onmouseout="cohomology_stop()" onmouseover="cohomology_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='cohomology_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="new_images/cohomology.png" type="image/png">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='new_images/cohomology.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function cohomology_start() {
+              document.getElementById('cohomology_image').style.opacity = "1";
+            }
+
+            function cohomology_stop() {
+              document.getElementById('cohomology_image').style.opacity = "0";
+            }
+            cohomology_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2211.01536">
+            <span class="papertitle">Harrison homology and the Quillen cohomology of commutative monoids</span>
+          </a>
+          <br>
+          <strong>Bhavya Agrawalla</strong>,
+          <a>Nasief Khlaif</a>,
+          <a href="https://math.mit.edu/~hrm/">Haynes Miller</a>
+
+          <br>
+          <em>Under Review</em>, 2022
+          <br>
+          <a href="https://arxiv.org/abs/2211.01536">arXiv</a>
+          <p></p>
+          <p>
+          We observe that Beck modules for a commutative monoid are exactly modules over a graded commutative ring associated to the monoid. Under this identification, the Quillen cohomology of commutative monoids is a special case of Andre-Quillen cohomology for graded commutative rings, generalizing a result of Kurdiani and Pirashvili. To verify this we develop the necessary grading formalism. The partial cochain complex developed by Pierre Grillet appears as the start of a modification of the Harrison cochain complex suggested by Michael Barr. We show that Harrison and Quillen cohomology coincide rationally, and thereby establish a cochain complex computing the rational cohomology of a commutative monoid.
+          </p>
+        </td>
+      </tr>
             
             
           </tbody></table>
@@ -138,7 +177,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  
                 </p>
               </td>
             </tr>
