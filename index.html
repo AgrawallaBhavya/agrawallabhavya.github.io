@@ -89,6 +89,47 @@
           </p>
         </td>
       </tr>
+
+      <tr onmouseout="diser_stop()" onmouseover="diser_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='diser_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="new_images/diser.png" type="image/png">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='new_images/diser.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function diser_start() {
+              document.getElementById('diser_image').style.opacity = "1";
+            }
+
+            function diser_stop() {
+              document.getElementById('diser_image').style.opacity = "0";
+            }
+            diser_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://arxiv.org/abs/2309.13851">
+            <span class="papertitle">DISeR: Designing Imaging Systems with Reinforcement Learning</span>
+          </a>
+          <br>
+          <a href="https://tzofi.github.io/">Tzofi Klinghoffer</a>,
+          <a href="https://www.media.mit.edu/people/ktiwary/overview/">Kushagra Tiwary</a>,
+          <a>Nikhil Behari</a>,
+          <strong>Bhavya Agrawalla</strong>,
+          <a href="https://www.media.mit.edu/people/raskar/overview/">Ramesh Raskar</a>,
+          <br>
+          <em>International Conference on Computer Vision (ICCV)</em>, 2023
+          <br>
+          <a href="https://arxiv.org/abs/2309.13851">arXiv</a>
+          <p></p>
+          <p>
+            
+          </p>
+        </td>
+      </tr>
             
             
           </tbody></table>
