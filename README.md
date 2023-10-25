@@ -1,1 +1,1 @@
-Template copied from Jon Barron's website (https://jonbarron.info/)
+Template taken from Jon Barron's website (https://jonbarron.info/)
